@@ -1,0 +1,186 @@
+﻿
+/* DOWNLOAD */
+
+section
+{
+    max-width: 700px;
+    padding-bottom: 2em;
+    margin: 0 auto 2em auto;
+}
+
+h3
+{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+table
+{
+    width: 100%;
+}
+
+thead th
+{
+    background-color: rgba(0,0,0,0.3);
+}
+
+tbody th
+{
+    text-align: left;
+}
+
+td
+{
+    height: 60px;
+}
+
+/* ACTUAL */
+
+#groupLogo
+{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#actual th
+{
+    background-color: rgba(0,0,0,0.3);
+}
+
+#actual tr td:nth-child(1)
+{
+    padding-left: 10%;
+}
+
+
+td.ver
+{
+    position: relative;
+    width: 60px;
+}
+
+td.ver:empty:after, td.ver:empty:before
+{
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    width: 2px;
+    height: 30px;
+    background-color: #333333;
+}
+
+td.ver:empty:after
+{
+    transform: rotate(-45deg);
+}
+
+td.ver:empty:before
+{
+    transform: rotate(45deg);
+}
+
+td.ver a
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/icons/download.png");
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.2s;
+}
+
+td.ver a:hover
+{
+    background-color: rgba(238, 69, 64, 0.5);
+    background-size: 40%;
+}
+
+td.last
+{
+    background-color: rgba(238, 69, 64, 0.1);
+}
+
+/* SETUP */
+
+#setup ol
+{
+    margin-left: 10%;
+}
+
+#setup p:not(:first-child)
+{
+    margin-top: 1em;
+}
+
+#setup i
+{
+    font-style: initial;
+    background-color: rgb(10, 10, 10);
+    border-radius: 3px;
+}
+
+/* CONTROLS */
+
+#controls img
+{
+    width: 100%;
+    margin-top: 3em;
+}
+
+/* OLDERS */
+
+.old
+{   
+    padding: 0.5em;
+    background-color: rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.old a
+{
+    float: right;
+    margin-left: 1em;
+}
+
+.old img
+{
+    width: 16px;
+    height: 16px;
+}
+
+.old .ver
+{
+    background-color: rgba(0,0,0,0.3);
+    padding: 0 0.5em;
+    margin-left: 1em;
+    float: right;
+}
+
+.prototype .ver
+{
+    color: red;
+}
+
+.pre-release .ver
+{
+    color: orange;
+}
+
+.release .ver
+{
+    color: green;
+}
+
+/* OVELAY */
+
+#overlay-img
+{
+    padding: 1em;
+    background: #333333;
+}
