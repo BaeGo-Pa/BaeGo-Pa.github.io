@@ -1,4 +1,4 @@
-
+﻿
 /* WHAT IS */
 
 #whatis
@@ -136,40 +136,6 @@ section h4
     border-radius: 5px;
 }
 
-/* SIDE IMAGES */
-
-#story::before,
-#story::after,
-#gameplay::after
-{
-    content: '';
-    position: absolute;
-    width: 75px;
-    height: 184px;
-}
-
-#story::before
-{
-    top: 25%;
-    left: -15%;
-    transform: rotate(15deg);
-    background: url('../img/avatars/spazon.png');
-}
-
-#story::after
-{
-    bottom: 5%;
-    right: -15%;
-    transform: rotate(5deg) scaleX(-1);
-    background: url('../img/avatars/theus.png');
-}
-
-#gameplay::after
-{
-    bottom: 0%;
-    left: -5%;
-    background: url('../img/avatars/cyberpunk.png');
-}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1500px)
