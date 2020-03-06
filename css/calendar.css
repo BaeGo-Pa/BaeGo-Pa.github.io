@@ -1,4 +1,4 @@
-
+﻿
 /* Based on : https://www.w3schools.com/howto/howto_css_timeline.asp */
 
 /* THE TIMELINE */
@@ -29,7 +29,7 @@ h2
     bottom: 0;
     left: 50%;
     margin-left: -3px;
-    background: linear-gradient(to bottom, rgba(128, 19, 54, 1) 0%, rgba(128, 19, 54, 0) 100%);
+    background: linear-gradient(to bottom, rgba(228, 105, 46, 1) 0%, rgba(15, 5, 107, 1) 100%);
 }
 
 /* Box around content */
@@ -48,7 +48,8 @@ h2
     position: absolute;
     width: 25px;
     height: 25px;
-    background-color: #801336;
+    background-color: #E007D2;
+    opacity: 0.9;
     border-radius: 50%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     z-index: 2;
@@ -94,9 +95,9 @@ h2
     height: 0;
     top: 32px;
     right: 30px;
-    border: medium solid #b01c33;
+    border: medium solid #0F056B;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #b01c33;
+    border-color: transparent transparent transparent #0F056B;
     z-index: 1;
 }
 
@@ -108,9 +109,9 @@ h2
     height: 0;
     top: 22px;
     left: 30px;
-    border: medium solid #b01c33;
+    border: medium solid #0F056B;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #b01c33 transparent transparent;
+    border-color: transparent #0F056B transparent transparent;
     z-index: 1;
 }
 
@@ -123,12 +124,12 @@ h2
 
 .left .content
 {
-    background: linear-gradient(to left, rgba(176, 28, 51, 1) 0%, rgba(176, 28, 51, 0) 100%);
+    background: linear-gradient(to left, rgba(15, 5, 107, 1) 0%, rgba(15, 5, 107, 0) 100%);
 }
 
 .right .content
 {
-    background: linear-gradient(to right, rgba(176, 28, 51, 1) 0%, rgba(176, 28, 51, 0) 100%);
+    background: linear-gradient(to right, rgba(15, 5, 107, 1) 0%, rgba(15, 5, 107, 0) 100%);
 }
 
 .center .content
@@ -177,7 +178,7 @@ h2
 
     .left .content
     {
-        background: linear-gradient(to right, rgba(176, 28, 51, 1) 0%, rgba(176, 28, 51, 0) 100%);
+        background: linear-gradient(to right, rgba(15, 5, 107, 1) 0%, rgba(15, 5, 107, 0) 100%);
     }
 
     /* Put all the right containers at the same place thant the left ones */
