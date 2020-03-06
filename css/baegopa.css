@@ -1,4 +1,4 @@
-
+﻿
 /* SECTIONS */
 
 section
@@ -62,22 +62,22 @@ section .title
     margin-bottom: 1em;
 }
 
-#guillaume:hover
+#alexy:hover
 {
     border: 1px solid rgba(44, 135, 196, 0.5);
 }
 
-#marwan:hover
+#raphael:hover
 {
     border: 1px solid rgba(105, 44, 196, 0.5);
 }
 
-#louis:hover
+#aleksandar:hover
 {
     border: 1px solid rgba(44, 196, 85, 0.5);
 }
 
-#amayun:hover
+#katia:hover
 {
     border: 1px solid rgba(179, 40, 40, 0.5);
 }
@@ -109,42 +109,42 @@ section .title
     transition: all 0.2s ease;
 }
 
-#guillaume .img-container
+#alexy .img-container
 {
     border-color: #2c87c4;
 }
 
-#guillaume:hover .img-container::after
+#alexy:hover .img-container::after
 {
     box-shadow: inset 0 -50px 40px -40px #2c87c4;
 }
 
-#marwan .img-container
+#raphael .img-container
 {
     border-color: #692cc4;
 }
 
-#marwan:hover .img-container::after
+#raphael:hover .img-container::after
 {
     box-shadow: inset 0 -50px 40px -40px #692cc4;
 }
 
-#louis .img-container
+#aleksandar .img-container
 {
     border-color: #2cc455;
 }
 
-#louis:hover .img-container::after
+#aleksandar :hover .img-container::after
 {
     box-shadow: inset 0 -50px 40px -40px #2cc455;
 }
 
-#amayun .img-container
+#katia .img-container
 {
     border-color: #b32828;
 }
 
-#amayun:hover .img-container::after
+#katia:hover .img-container::after
 {
     box-shadow: inset 0 -50px 40px -40px #b32828;
 }
@@ -204,14 +204,22 @@ section .title
     height: 100%;
 }
 
-.physique   { width: 100%; }
-.ctrl-multi { width: 100%; }
-.gm-design  { width: 100%; }
-.audio      { width: 100%; }
-.graph      { width: 100%; }
-.web        { width: 100%; }
+.multi   { width: 100%; }
+.multi50   { width: 50%; }
+.modelisation { width: 100%; }
+.animation  { width: 100%; }
+.music  { width: 100%; }
+.textures      { width: 100%; }
+.textures50      { width: 50%; }
 .lvl-design { width: 100%; }
-.menus      { width: 100%; }
+.lvl-design50 { width: 50%; }
+.IA      { width: 100%; }
+.solo      { width: 100%; }
+.solo50      { width: 50%; }
+.interface { width: 100%; }
+.interface50 { width: 50%; }
+.web        { width: 100%; }
+
 
 
 /* Social links */
