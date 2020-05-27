@@ -35,6 +35,13 @@ td
     height: 60px;
 }
 
+section a
+{
+    position: relative;
+    text-decoration: underline;
+    color: #ef4339;
+}
+
 /* ACTUAL */
 
 #groupLogo
